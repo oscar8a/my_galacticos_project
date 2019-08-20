@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+
+# Player.delete_all
+
+# Faker::User.name
+# Faker::User.email
+
+# get_player(rand(1..126999))
+
