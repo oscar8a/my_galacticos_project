@@ -16,7 +16,7 @@ Player.delete_all
     # 10.times do
     #     num = rand.(1..100)
     #     url = "https://api.football-data.org/v2/players/#{num.to_s}"
-    #     response = RestClient.get(url, headers={:'X-Auth-Token' => '869dbc3d5ffd4c34838bc6bc50ff692f'})
+    #     response = RestClient.get(url, headers={:'X-Auth-Token' => ''})
     #     player = JSON.parse(response.body)
     #     Player.create(name: player.name, position: player.position, dob: player.date_OfBirth, nationality: player.nationality)
     # end
