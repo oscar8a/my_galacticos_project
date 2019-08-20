@@ -1,0 +1,9 @@
+<h1> Players index page </h1>
+
+<ul>
+    <% @players.each do |player| %>
+    <li>
+    <%= player.name%>
+    </li>
+    <% end %>
+</ul>
