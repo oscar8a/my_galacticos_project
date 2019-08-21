@@ -1,0 +1,8 @@
+<h1> User Show Page</h1>
+
+<%= @current_user.name %>
+<%= @current_user.email %>
+<%= @current_user.nationality %>
+
+<%= link_to "Edit", edit_user_path %>
+<%= button_to "Delete", @user, method: :delete %>
