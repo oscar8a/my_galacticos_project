@@ -1,0 +1,12 @@
+<h2>Create a Squad</h2>
+
+<%= form_for @squad do |f| %>
+<%# @squad.user_id = @current_user.id %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.label :location %>
+<%= f.text_field :location %>
+<%= f.label :name %>
+<%= f.collection_select :name, Coach.all, :id, :name %>
+<%= f.submit %>
+<% end %>
